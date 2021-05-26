@@ -15,7 +15,7 @@
   {
     "id": 50632,
     "createdAt": "2021-05-04T08:26:40.819Z",
-    "evaluation": "{\"timeSpent\":460,\"completed\":true,\"difficultyAssessment\":1,}",
+    "evaluation": "{\"timeSpent\":460,\"completed\":true,\"difficultyAssessment\":1}",
     "updatedAt": "2021-05-04T08:38:11.643Z",
     "bookmarked": false,
     "hasNote": false,
@@ -28,7 +28,7 @@
   {
     "id": 50642,
     "createdAt": "2021-05-04T08:39:00.339Z",
-    "evaluation": "{\"timeSpent\":300,\"completed\":false,\"difficultyAssessment\":2,}",
+    "evaluation": "{\"timeSpent\":300,\"completed\":false,\"difficultyAssessment\":2}",
     "updatedAt": "2021-05-04T08:44:25.533Z",
     "bookmarked": false,
     "hasNote": true,
@@ -67,7 +67,7 @@
   {
     "id": 50658,
     "createdAt": "2021-05-04T08:51:44.353Z",
-    "evaluation": "{\"timeSpent\":460,\"completed\":false,\"difficultyAssessment\":3,}",
+    "evaluation": "{\"timeSpent\":460,\"completed\":false,\"difficultyAssessment\":3}",
     "updatedAt": "2021-05-04T08:59:31.9Z",
     "bookmarked": false,
     "hasNote": false,
@@ -80,7 +80,7 @@
   {
     "id": 50678,
     "createdAt": "2021-05-04T09:03:38.733Z",
-    "evaluation": "{\"timeSpent\":180,\"completed\":false,\"difficultyAssessment\":1,}",
+    "evaluation": "{\"timeSpent\":180,\"completed\":false,\"difficultyAssessment\":1}",
     "updatedAt": "2021-05-04T09:06:42.51Z",
     "bookmarked": false,
     "hasNote": false,
@@ -132,7 +132,7 @@
   {
     "id": 50727,
     "createdAt": "2021-05-04T09:25:24.514Z",
-    "evaluation": "{\"timeSpent\":630,\"completed\":true,\"difficultyAssessment\":1,}",
+    "evaluation": "{\"timeSpent\":630,\"completed\":true,\"difficultyAssessment\":1}",
     "updatedAt": "2021-05-04T09:36:01.556Z",
     "bookmarked": false,
     "hasNote": false,
@@ -145,7 +145,7 @@
   {
     "id": 50740,
     "createdAt": "2021-05-04T09:36:04.426Z",
-    "evaluation": "{\"timeSpent\":730,\"completed\":true,\"difficultyAssessment\":3,}",
+    "evaluation": "{\"timeSpent\":730,\"completed\":true,\"difficultyAssessment\":3}",
     "updatedAt": "2021-05-04T09:48:15.659Z",
     "bookmarked": false,
     "hasNote": false,
@@ -158,7 +158,7 @@
   {
     "id": 50752,
     "createdAt": "2021-05-04T09:48:22.997Z",
-    "evaluation": "{\"timeSpent\":500,\"completed\":true,\"difficultyAssessment\":4,}",
+    "evaluation": "{\"timeSpent\":500,\"completed\":true,\"difficultyAssessment\":4}",
     "updatedAt": "2021-05-04T09:56:53.772Z",
     "bookmarked": true,
     "hasNote": false,
@@ -210,7 +210,7 @@
   {
     "id": 50776,
     "createdAt": "2021-05-04T10:08:14.504Z",
-    "evaluation": "{\"timeSpent\":390,\"completed\":false,\"difficultyAssessment\":4,}",
+    "evaluation": "{\"timeSpent\":390,\"completed\":false,\"difficultyAssessment\":4}",
     "updatedAt": "2021-05-04T10:14:45.379Z",
     "bookmarked": false,
     "hasNote": false,
