@@ -1,0 +1,59 @@
+.card {
+  padding: 2em;
+  border-radius: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .card {
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+  }
+}
+
+.card.is-bordered {
+  box-shadow: 0 0 0 2px rgba(48, 45, 61, 0.1);
+}
+
+.card.is-well {
+  background-color: rgba(26, 14, 35, 0.03);
+  transition-duration: 0.3s;
+ 
+}
+
+.card.is-white {
+  background-color: #fff;
+  transition-duration: 0.3s;
+}
+
+.card.is-floating {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(48, 45, 61, 0.1);
+  transition-duration: 0.3s;
+}
+
+.card.is-popping {
+  background-color: #fff;
+  box-shadow: 0 12px 24px 0 rgba(48, 45, 61, 0.1);
+  transition-duration: 0.4s;
+}
+
+.card.is-raised {
+  border: 2px solid rgba(139, 133, 160, 0.1);
+  border-bottom: 4px solid rgba(139, 133, 160, 0.25);
+  background-color: #fff;
+}
+
+.card.is-disabled {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.card.is-selected {
+  background-color: var(--color-kollin);
+  color: white !important;
+}

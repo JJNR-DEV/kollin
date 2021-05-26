@@ -1,0 +1,16 @@
+.app {
+  padding: 50px 100px;
+  .container {
+    max-width: 1200px;
+
+    .header {
+      display: flex;
+      align-items: center;
+
+      img {
+        margin-right: 10px;
+        height: 2em;
+      }
+    }
+  }
+}

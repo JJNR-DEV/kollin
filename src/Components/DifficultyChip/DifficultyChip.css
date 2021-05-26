@@ -1,0 +1,8 @@
+.difficulty-chip {
+  padding: 1px 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  border-style: solid;
+  white-space: nowrap;
+}
