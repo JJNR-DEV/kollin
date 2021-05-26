@@ -11,13 +11,10 @@ import "./ExerciseCard.scss";
 
 const ExerciseCard = ({
   exercise,
-  selectedExercise,
   difficultyAssessment,
   hasNote,
   bookmarked
 }) => {
-
-  const active = exercise.id == selectedExercise;
 
   let author = "Unknown author";
   if (exercise.author) {
@@ -26,10 +23,7 @@ const ExerciseCard = ({
 
   return (
     <Card
-      className={classnames("exercise-card", {
-        collapsed: selectedExercise,
-        active,
-      })}
+      className={classnames("exercise-card")}
     >
       <div className="exercise-card-difficulty">
         <div>
@@ -63,7 +57,6 @@ ExerciseCard.propTypes = {
     author: PropTypes.string,
     score: PropTypes.number.isRequired,
   }),
-  selectedExercise: PropTypes.number,
   bookmarked: PropTypes.bool,
   hasNote: PropTypes.bool,
   difficultyAssessment: PropTypes.number
