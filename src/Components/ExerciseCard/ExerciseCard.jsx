@@ -16,6 +16,8 @@ const ExerciseCard = ({
   bookmarked
 }) => {
 
+  const evaluation = JSON.parse(exercise.evaluation);
+
   let author = "Unknown author";
   if (exercise.author) {
     author = "by " + exercise.author;

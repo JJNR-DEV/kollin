@@ -25,7 +25,7 @@ const Card = ( {
     <div
       ref={ ref }
       onClick={ onClick }
-      className={ `card is-${type} ${disabled ? "is-disabled" : ""} 
+      className={ `card is-${type} ${disabled ? "is-disabled" : ""}
       ${selected ? "is-selected" : ""} ${className}` }
       style={ style }
     >
@@ -36,9 +36,9 @@ const Card = ( {
 
 // eslint-disable-next-line react/no-typos
 Card.propTypes = {
-  type: PropTypes.oneOf( types ).isRequired,
-  children: PropTypes.instanceOf( Element ).isRequired,
-  onClick: PropTypes.func.isRequired,
+  type: PropTypes.oneOf( types ),
+  children: PropTypes.instanceOf( Element ),
+  onClick: PropTypes.func,
   style: PropTypes.objectOf( PropTypes.oneOfType( [
     PropTypes.string,
     PropTypes.number,

@@ -1,0 +1,9 @@
+.exercises {
+  display: flex;
+  max-width: 100%;
+  overflow-x: scroll;
+
+  .exercise-card-author {
+    display: none;
+  }
+}
