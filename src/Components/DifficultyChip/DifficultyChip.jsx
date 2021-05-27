@@ -2,7 +2,7 @@ import React from "react";
 import { scoreToDifficultyIndex } from "../../utilities/formatScore";
 import {
   difficultyColors,
-  kollinBlack,
+  // kollinBlack,
   chipDarkBlue,
 } from "../../utilities/COLORS";
 import PropTypes from "prop-types";

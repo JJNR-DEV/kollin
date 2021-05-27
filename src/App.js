@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import dailyProgress from './daily_progress_data.json';
 import "./App.scss";
 
-import Exercises from './Components/Exercises';
+import Exercises from './Components/Exercises/Exercises';
 import ProgressEvaluation from './Components/ProgressEvaluation/ProgressEvaluation';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <div className="container">
         <div className="header">
-          <img src="https://d1mgntrf3vaj6d.cloudfront.net/images/logo.svg" />
+          <img src={ logo } alt="logo" />
           <h1>Daily Overview</h1>
         </div>
         <ProgressEvaluation data={ dailyProgress } />

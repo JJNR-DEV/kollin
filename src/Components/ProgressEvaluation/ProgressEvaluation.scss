@@ -1,4 +1,14 @@
 .progressEvaluationRow {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
+  @media (max-width: 628px) {
+    flex-direction: column;
+  }
+
+  .progressEvaluationCards {
+    display: flex;
+  }
 }
+

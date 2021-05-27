@@ -1,32 +1,7 @@
 import ProgressBar from "../../ProgressBar";
+import "./ProgressBars.scss";
 
 const ProgressBars = ({ data }) => {
-  /*
-  const categories = data.map(exercise => exercise.category);
-  const categoryExercises = {};
-
-  for(let name of categories.sort()) {
-    if(Object.keys(categoryExercises).includes(name)) {
-      categoryExercises[name] = {
-        total: categoryExercises[name] + 1
-      };
-    } else {
-      categoryExercises[name] = {
-        total: 1
-      };;
-    }
-  }
-
-  { Object.keys(categoryExercises).map(category => {
-    return (
-      <>
-        <span className='categoryName'>{ category }</span>
-        <ProgressBar />
-      </>
-    )
-  }) }
-  */
-
   const categoryExercises = {};
 
   const categories = data.map(exercise => {
@@ -44,17 +19,15 @@ const ProgressBars = ({ data }) => {
     }
   }
 
-  console.log(data.length);
-
   return (
     <div className="allProgressBars">
       { Object.keys(categoryExercises).map((category, i) => {
 
         return (
-          <>
+          <div className="progressEvaluationBars" key={ i }>
             <span className='categoryName'>{ category }</span>
-            <ProgressBar key={ i } progressRatio={ categoryExercises[category] / data.length } />
-          </>
+            <ProgressBar progressRatio={ categoryExercises[category] / data.length } />
+          </div>
         )
       }) }
     </div>

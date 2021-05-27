@@ -1,0 +1,7 @@
+.allProgressBars {
+  min-width: 200px;
+
+  @media (max-width: 628px) {
+    padding: 20px 0 10px;
+  }
+}

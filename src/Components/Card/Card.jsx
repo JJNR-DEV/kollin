@@ -29,7 +29,7 @@ const Card = ( {
       ${selected ? "is-selected" : ""} ${className}` }
       style={ style }
     >
-      {children }
+      { children }
     </div>
   );
 };

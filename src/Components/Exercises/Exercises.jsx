@@ -2,7 +2,6 @@ import ExerciseCard from '../ExerciseCard/ExerciseCard';
 import './Exercises.scss';
 
 const Exercises = ({ data }) => {
-  console.log(data)
   const bookmarkedExercises = data.filter(exercise => exercise.bookmarked);
   const notedExercises = data.filter(exercise => exercise.hasNote);
 
